@@ -1,0 +1,33 @@
+/* Small screens and laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS styles for small screens and laptops */
+  .container {
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+       
+}
+
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 769px) {
+  /* CSS styles for iPads and tablets */
+  .container {
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+
+/* Mobile devices */
+@media (min-width: 320px) and (max-width: 481px) {
+  /* CSS styles for mobile devices */
+  .container {
+    grid-template-columns: 1fr  ;
+  }
+}
+
+
+/* }Smaller mobile devices */
+@media (max-width: 320px) {
+    /* CSS styles for sma */
+    .container {
+    grid-template-columns: 1fr ;
+   }
+}
